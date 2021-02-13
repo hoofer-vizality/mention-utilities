@@ -18,8 +18,6 @@ export default class MentionUtilities extends Plugin {
         const ChannelListVoiceChannelContextMenu = await getModule(m => m.default && m.default.displayName === 'ChannelListVoiceChannelContextMenu');
         const ChannelListTextChannelContextMenu = await getModules(m => m.default && m.default.displayName === 'ChannelListTextChannelContextMenu')[2];
 
-        console.log(ChannelListTextChannelContextMenu);
-
         // injectors
         patch('channel-inject', ChannelListTextChannelContextMenu, "default", (args, res) => {
             // quick functions
