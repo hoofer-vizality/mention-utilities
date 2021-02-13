@@ -1,0 +1,7 @@
+{
+  "name": "Mention Utilities",
+  "version": "1.0.0",
+  "description": "Copy role mentions, channel mentions, and user mentions quickly.",
+  "author": "Hoofer#0001",
+  "license": "MIT"
+}
